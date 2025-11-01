@@ -42,6 +42,9 @@
               <a href="https://scholar.google.com/citations?user=X_z2xDEAAAAJ" target="_blank">Google Scholar</a>
               <!-- Add more links (e.g., GitHub, DBLP) if you'd like -->
             </p>
+            <p align="left">
+              <font color="red">Looking forward to any kinds of collaborations!</font>
+            </p>
           </td>
         </tr>
       </table>
@@ -119,6 +122,8 @@
                 <p style="line-height: 1.5;">Topics:
                   <button onclick="show_all(); change_color(this)">All</button>
                   /
+                  <button onclick="select_category('selected'); change_color(this)">Selected</button>
+                  /
                   <button onclick="select_category('ue'); change_color(this)">Unlearnable Examples</button>
                   /
                   <button onclick="select_category('backdoor'); change_color(this)">Backdoor Robustness</button>
@@ -165,7 +170,7 @@
         </td>
       </tr>
 
-      <tr class="paper ue">
+      <tr class="paper ue selected">
         <td style="padding:20px;width:30%;vertical-align:middle">
           <div><img src='images/icml25.png' width=100% alt="ICML 2025"></div>
         </td>
@@ -178,7 +183,7 @@
         </td>
       </tr>
 
-      <tr class="paper ue">
+      <tr class="paper ue selected">
         <td style="padding:20px;width:30%;vertical-align:middle">
           <div><img src='images/iccv25.png' width=100% alt="ICCV 2025"></div>
         </td>
@@ -191,7 +196,7 @@
         </td>
       </tr>
 
-      <tr class="paper adv">
+      <tr class="paper adv selected">
         <td style="padding:20px;width:30%;vertical-align:middle">
           <div><img src='images/tifs25.png' width=100% alt="TIFS 2025"></div>
         </td>
@@ -204,7 +209,7 @@
         </td>
       </tr>
 
-      <tr class="paper backdoor">
+      <tr class="paper backdoor selected">
         <td style="padding:20px;width:30%;vertical-align:middle">
           <div><img src='images/aaai25.png' width=100% alt="AAAI 2025"></div>
         </td>
@@ -217,7 +222,7 @@
         </td>
       </tr>
 
-      <tr class="paper backdoor">
+      <tr class="paper backdoor selected">
         <td style="padding:20px;width:30%;vertical-align:middle">
           <div><img src='images/cvpr23_yy.png' width=100% alt="TPAMI 2024"></div>
         </td>
@@ -230,7 +235,7 @@
         </td>
       </tr>
 
-      <tr class="paper ue">
+      <tr class="paper ue selected">
         <td style="padding:20px;width:30%;vertical-align:middle">
           <div><img src='images/icml24.png' width=100% alt="ICML 2024"></div>
         </td>
@@ -243,7 +248,7 @@
         </td>
       </tr>
 
-      <tr class="paper tcs">
+      <tr class="paper tcs selected">
         <td style="padding:20px;width:30%;vertical-align:middle">
           <div><img src='images/acmmm24.png' width=100% alt="ACM MM 2024"></div>
         </td>
@@ -256,7 +261,7 @@
         </td>
       </tr>
 
-      <tr class="paper backdoor">
+      <tr class="paper backdoor selected">
         <td style="padding:20px;width:30%;vertical-align:middle">
           <div><img src='images/cvpr23_yy.png' width=100% alt="CVPR 2023"></div>
         </td>
@@ -269,7 +274,7 @@
         </td>
       </tr>
 
-      <tr class="paper adv">
+      <tr class="paper adv selected">
         <td style="padding:20px;width:30%;vertical-align:middle">
           <div><img src='images/cvpr22.png' width=100% alt="CVPR 2022"></div>
         </td>
