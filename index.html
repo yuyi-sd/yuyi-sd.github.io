@@ -82,6 +82,10 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>News</h2>
                 <ul>
+                  <li>[November 8, 2025] Two paper accepted by AAAI 2026 including one Oral. Congrats to all collaborators!</li>
+                </ul>
+
+                <ul>
                   <li>[November 3, 2025] One paper accepted by Machine Intelligence Research.</li>
                 </ul>
 
@@ -134,6 +138,8 @@
                   /
                   <button onclick="select_category('adv'); change_color(this)">Adversarial Robustness</button>
                   /
+                  <button onclick="select_category('llm'); change_color(this)">LLM security</button>
+                  /
                   <button onclick="select_category('tcs'); change_color(this)">Trustworthy Collaborative Systems</button>
                   /
                   <button onclick="select_category('llv'); change_color(this)">Low-level Vision</button>
@@ -146,6 +152,35 @@
     <table style="width:750px;table-layout:fixed;"><tbody>
 
       <!-- 2025 -->
+      <tr class="paper selected llm adv">
+        <td style="padding:20px;width:30%;vertical-align:middle">
+          <div><img src="images/intro4tva_1.png" width="100%" alt="AAAI"></div>
+        </td>
+        <td style="padding:20px;width:70%;vertical-align:middle">
+          <span class="tag">AAAI (Oral)</span> &nbsp;
+          <a href="#">
+            <span class="papertitle">From Pretrain to Pain: Adversarial Vulnerability of Video Foundation Models Without Task Knowledge</span>
+          </a><br>
+          Hui Lu, <strong>Yi Yu<sup>†</sup></strong>, Song Xia, Yiming Yang, Deepu Rajan, Boon Poh Ng, Alex Kot, Xudong Jiang<br>
+          <em>AAAI Conference on Artificial Intelligence (AAAI)</em>, 2026<br>
+        </td>
+      </tr>
+
+      <tr class="paper llm">
+        <td style="padding:20px;width:30%;vertical-align:middle">
+          <div><img src="images/hallucination.png" width="100%" alt="AAAI"></div>
+        </td>
+        <td style="padding:20px;width:70%;vertical-align:middle">
+          <span class="tag">AAAI</span> &nbsp;
+          <a href="#">
+            <span class="papertitle">SAVER: Mitigating Hallucinations in Large Vision-Language Models via Style-Aware Visual Early Revision</span>
+          </a><br>
+          Zhaoxu Li, Chenqi Kong, <strong>Yi Yu</strong>, Qiangqiang Wu, Xinghao Jiang, Ngai-Man Cheung, Bihan Wen, Alex Kot, Xudong Jiang<br>
+          <em>AAAI Conference on Artificial Intelligence (AAAI)</em>, 2026<br>
+          <a href="https://arxiv.org/abs/2508.03177">Paper</a>
+        </td>
+      </tr>
+
       <tr class="paper tcs">
         <td style="padding:20px;width:30%;vertical-align:middle">
           <div><img src="images/StegaFFDstructure.png" width="100%" alt="MIR"></div>
@@ -156,7 +191,7 @@
             <span class="papertitle">StegaFFD: Privacy-Preserving Face Forgery Detection via Fine-Grained Steganographic Domain Lifting</span>
           </a><br>
           Guoqing Ma, Xun Lin, Hui Ma, Ajian Liu, Yizhong Liu, Wenzhong Tang, Shan Yu, Chenqi Kong, <strong>Yi Yu<sup>†</sup></strong><br>
-          <em>Machine Intelligence Research (MIR)</em>, 2025
+          <em>Machine Intelligence Research (MIR)</em>, 2025<br>
         </td>
       </tr>
 
@@ -170,7 +205,7 @@
             <span class="papertitle">Safeguarding Medical Image Segmentation Datasets against Unauthorized Training via Contour-and Texture-Aware Perturbations</span>
           </a><br>
           Xun Lin, <strong>Yi Yu<sup>†</sup></strong>, Song Xia, Jue Jiang, Haoran Wang, Zitong Yu, Yizhong Liu, Ying Fu, Shuai Wang, Wenzhong Tang, Alex C. Kot<br>
-          <em>major revision by IEEE Transactions on Medical Imaging (TMI)</em>, 2025
+          <em>major revision by IEEE Transactions on Medical Imaging (TMI)</em>, 2025<br>
         </td>
       </tr>
       
